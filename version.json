@@ -1,17 +1,42 @@
 {
-  "project": "鹈鹕骑士 · 海岸生存",
+  "project": "鹈鹕骑士 · 海风镇与海岸",
   "project_id": "pelican-knight",
-  "version": "0.1.1",
+  "version": "0.3.2",
   "stage": "development-prototype",
   "updated_at": "2026-10-27",
   "workspace": "/Users/qianweijin/Library/Mobile Documents/com~apple~CloudDocs/10-开发/2-Game/1-鹈鹕骑士",
   "entry": "index.html",
-  "snapshot": "versions/v0.1.1/index.html",
+  "snapshot": "versions/v0.3.2/index.html",
   "prototype": "versions/prototype/261026-pelican-ride.html",
-  "last_change": "20261027-002",
+  "last_change": "20261027-008",
   "changelog": "CHANGELOG.md",
   "development_log": "docs/DEVELOPMENT.md",
   "handoff": "docs/HANDOFF.md",
+  "design_plan": "docs/261027-失落城堡2系统学习与复刻计划.md",
+  "design_plan_version": "V2",
+  "implementation": "side-view-camp-weapons-mounts-apparel-resources-save-and-settlement",
+  "asset_library": {
+    "version": "1.1.0",
+    "catalog": "assets/catalog.json",
+    "graphics": "assets/sprites.svg",
+    "gallery": "docs/assets.html",
+    "overview": "docs/assets-overview.png",
+    "guide": "assets/README.md",
+    "sync_command": "python3 tools/sync_assets.py",
+    "cards": 40,
+    "baseline_game_version": "0.3.0",
+    "visual_status": "r2-png-overview-and-combinations-inspected-user-art-approval-pending",
+    "detail": "docs/assets-detail.png",
+    "visual_game_version": "0.3.2",
+    "active_assets": 37,
+    "active_revision": 2
+  },
+  "save_schema": {
+    "key": "pelican-knight-save-v1",
+    "schema_version": 1,
+    "legacy_key": "pelican-coast-best-v1",
+    "legacy_policy": "copy-records-on-first-load-preserve-old-key"
+  },
   "versioning": "git-branches-pull-requests-immutable-snapshots-and-change-logs",
   "repository": "https://github.com/ScarfQian/pelican-knight",
   "deployment": {
@@ -19,7 +44,8 @@
     "url": "https://scarfqian.github.io/pelican-knight/",
     "branch": "main",
     "path": "/",
-    "status": "published"
+    "status": "pull-request-open-awaiting-main-approval",
+    "published_version": "0.1.1"
   },
   "verification": {
     "migration": "source-and-destination-content-matched",
@@ -29,6 +55,23 @@
     "mobile_playthrough": "not-run",
     "automated_tests": "not-run",
     "performance_tests": "not-run",
-    "online_delivery": "http-200-and-html-matches-current-entry"
+    "online_delivery": "public-version-metadata-read-0.1.1-current-pr-not-merged",
+    "javascript_syntax": "checked",
+    "markup_references": "checked",
+    "source_review": "completed-with-fixes-static-only",
+    "gameplay_acceptance": "pending-not-executed",
+    "asset_source_sync": "checked",
+    "asset_png_overview": "visually-inspected",
+    "asset_gallery_browser": "not-inspected-file-url-blocked",
+    "asset_png_detail": "visually-inspected-static-combinations",
+    "asset_parameters": "unchanged-except-elite-graphic-reference"
+  },
+  "repository_delivery": {
+    "date": "2026-10-27",
+    "branch": "feat/camp-town",
+    "status": "pushed-pull-request-open",
+    "pull_request": "https://github.com/ScarfQian/pelican-knight/pull/1",
+    "implementation_commit": "f17cd15496cf7878f536063a2c780ed5f1d77fe2",
+    "main_merge": "awaiting-user-decision"
   }
 }
