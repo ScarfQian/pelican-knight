@@ -112,9 +112,9 @@
 
 ## GitHub 与后续开发
 
-代码仓库：[ScarfQian/pelican-knight](https://github.com/ScarfQian/pelican-knight)。在线游戏：[鹈鹕骑士](https://scarfqian.github.io/pelican-knight/)，此前发布版本为 0.1.1，本轮没有更新远端。
+代码仓库：[ScarfQian/pelican-knight](https://github.com/ScarfQian/pelican-knight)。0.3.2 已推送至 `feat/camp-town`，审阅入口为 [PR #1](https://github.com/ScarfQian/pelican-knight/pull/1)。在线游戏：[鹈鹕骑士](https://scarfqian.github.io/pelican-knight/)，2026-10-27 读取在线版本登记确认仍为 0.1.1；0.3.2 尚待合并上线。
 
-本地继续使用已有 `feat/camp-town` 分支，保留前轮未提交内容。按用户后续指令提交、推送和创建 PR；是否合并到 `main` 由用户逐次决定。Pages 从 `main` 根目录发布，未合并的修改不会更新在线游戏。不自动合并、不直接推送维护内容到 `main`，不强推或改写历史。
+本地继续使用 `feat/camp-town` 分支，此前累计开发内容与版本快照已提交并推送。是否合并到 `main` 由用户逐次决定。Pages 从 `main` 根目录发布，未合并的修改不会更新在线游戏。不自动合并、不直接推送维护内容到 `main`，不强推或改写历史。
 
 [计划 V2](docs/261027-失落城堡2系统学习与复刻计划.md)仍是唯一综合计划。原 20 周是学习与开发的估算基准，本轮按用户要求实现 H1—H5 涉及的基础系统，不代表全部阶段验收已完成。H6 的完整流派/状态、H7 节点地图/商店事件、H8 难度挑战及 H9 体验验证仍是后续内容；没有按代码量反推实际工时。
 

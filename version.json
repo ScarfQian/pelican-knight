@@ -44,7 +44,7 @@
     "url": "https://scarfqian.github.io/pelican-knight/",
     "branch": "main",
     "path": "/",
-    "status": "local-version-not-published",
+    "status": "pull-request-open-awaiting-main-approval",
     "published_version": "0.1.1"
   },
   "verification": {
@@ -55,7 +55,7 @@
     "mobile_playthrough": "not-run",
     "automated_tests": "not-run",
     "performance_tests": "not-run",
-    "online_delivery": "not-checked-for-current-local-version",
+    "online_delivery": "public-version-metadata-read-0.1.1-current-pr-not-merged",
     "javascript_syntax": "checked",
     "markup_references": "checked",
     "source_review": "completed-with-fixes-static-only",
@@ -65,5 +65,13 @@
     "asset_gallery_browser": "not-inspected-file-url-blocked",
     "asset_png_detail": "visually-inspected-static-combinations",
     "asset_parameters": "unchanged-except-elite-graphic-reference"
+  },
+  "repository_delivery": {
+    "date": "2026-10-27",
+    "branch": "feat/camp-town",
+    "status": "pushed-pull-request-open",
+    "pull_request": "https://github.com/ScarfQian/pelican-knight/pull/1",
+    "implementation_commit": "f17cd15496cf7878f536063a2c780ed5f1d77fe2",
+    "main_merge": "awaiting-user-decision"
   }
 }

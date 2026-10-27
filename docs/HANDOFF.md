@@ -27,7 +27,7 @@
 - 铁匠铺有两帽两围巾及独立三级强化；学堂有三分支九天赋；行政厅有五项可完成的一次性委托。
 - 新永久档、资源结算与旧纪录分离已写入代码；本轮未访问或迁移真实浏览器数据。
 - 已完成语法与引用静态核对和独立静态审阅；**未运行游戏、浏览器试玩、自动化游戏测试、移动端实测或性能测试**。状态为“实现完成待验证”，不能据此宣布手感、平衡、移动端布局或通关能力已经验证。
-- 本地仍是 `feat/camp-town`，已有未提交内容继续保留；本轮未提交、推送、创建 PR、合并或更新线上版本。
+- 当前 `feat/camp-town` 的 0.3.2 已按用户指令提交并推送；[PR #1](https://github.com/ScarfQian/pelican-knight/pull/1) 已创建，待用户决定是否合并 `main`。在线仍为 0.1.1。
 
 ## 固定资产的使用
 
@@ -130,10 +130,10 @@ NPC 头像和建筑居民共用 symbol；武器架陈列全部六类武器，停
 
 ## GitHub 与版本维护
 
-公开仓库：[ScarfQian/pelican-knight](https://github.com/ScarfQian/pelican-knight)。在线地址：[鹈鹕骑士](https://scarfqian.github.io/pelican-knight/)，此前已发布 0.1.1，本轮未查询或更新在线站点。
+公开仓库：[ScarfQian/pelican-knight](https://github.com/ScarfQian/pelican-knight)。0.3.2 已推送，审阅入口为 [PR #1](https://github.com/ScarfQian/pelican-knight/pull/1)。在线地址：[鹈鹕骑士](https://scarfqian.github.io/pelican-knight/)，2026-10-27 读取在线版本登记确认为 0.1.1；未合并更新。
 
-维护工作保留在现有 `feat/camp-town` 分支。按用户指令提交、推送、创建 PR；是否合并到 `main` 由用户逐次决定。未合并不更新 Pages，不自动合并、不绕过分支保护、不直接向 `main` 推送维护内容。每批修改同时登记版本、完整新快照与同编号日志，历史快照不覆盖。
+维护工作保留在现有 `feat/camp-town` 分支，累计修改与快照已提交至 PR #1。是否合并到 `main` 仍由用户逐次决定。未合并不更新 Pages，不自动合并、不绕过分支保护、不直接向 `main` 推送维护内容。每批开发修改同时登记版本、完整新快照与同编号日志；本次上传仅追加交付回执，游戏仍为 0.3.2，历史快照不覆盖。
 
 ## 可复制到新对话的提示
 
-> 这是《鹈鹕骑士》项目，唯一目录为 /Users/qianweijin/Library/Mobile Documents/com~apple~CloudDocs/10-开发/2-Game/1-鹈鹕骑士。先读 README.md、version.json、docs/HANDOFF.md、assets/README.md 与计划 V2。当前本地 0.3.2、修改编号 20261027-008；游戏保持横版营地、六武器、四坐骑、帽巾强化、存档结算和基础天赋任务。资产库1.1.0共40张卡，37项活跃资产已优化为r2，3项历史保留r1；鹈鹕嘴部已修正，围巾动画只改tail组的变换，精英蟹使用独立甲壳。源在 assets/catalog.json 和 assets/sprites.svg，按编号复用，改源后运行 python3 tools/sync_assets.py，不在入口生成区重新画图。新版PNG总览与组合对照已查看，尚未运行游戏或测试。四基础坐骑免费，地图仅横版海岸试炼；存档键 pelican-knight-save-v1，旧纪录独立保留。feat/camp-town 有前轮及本轮未提交修改，保护已有内容与旧快照；不要自动上传、合并或试玩。线上此前版本0.1.1。H6—H9后续系统未完成。
+> 这是《鹈鹕骑士》项目，唯一目录为 /Users/qianweijin/Library/Mobile Documents/com~apple~CloudDocs/10-开发/2-Game/1-鹈鹕骑士。先读 README.md、version.json、docs/HANDOFF.md、assets/README.md 与计划 V2。当前本地 0.3.2、修改编号 20261027-008；游戏保持横版营地、六武器、四坐骑、帽巾强化、存档结算和基础天赋任务。资产库1.1.0共40张卡，37项活跃资产已优化为r2，3项历史保留r1；鹈鹕嘴部已修正，围巾动画只改tail组的变换，精英蟹使用独立甲壳。源在 assets/catalog.json 和 assets/sprites.svg，按编号复用，改源后运行 python3 tools/sync_assets.py，不在入口生成区重新画图。新版PNG总览与组合对照已查看，尚未运行游戏或测试。四基础坐骑免费，地图仅横版海岸试炼；存档键 pelican-knight-save-v1，旧纪录独立保留。feat/camp-town 的累计修改与快照已提交推送，PR #1 为 https://github.com/ScarfQian/pelican-knight/pull/1，待用户决定是否合并 main；不要自动合并或试玩。在线已核对仍为0.1.1。H6—H9后续系统未完成。
