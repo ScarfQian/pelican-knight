@@ -19,7 +19,7 @@
     "url": "https://scarfqian.github.io/pelican-knight/",
     "branch": "main",
     "path": "/",
-    "status": "pending-first-deployment"
+    "status": "published"
   },
   "verification": {
     "migration": "source-and-destination-content-matched",
@@ -29,6 +29,6 @@
     "mobile_playthrough": "not-run",
     "automated_tests": "not-run",
     "performance_tests": "not-run",
-    "online_delivery": "pending"
+    "online_delivery": "http-200-and-html-matches-current-entry"
   }
 }

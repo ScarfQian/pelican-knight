@@ -29,10 +29,11 @@
 ## GitHub 与在线开发
 
 - 代码仓库：[ScarfQian/pelican-knight](https://github.com/ScarfQian/pelican-knight)。
-- 在线游戏：[鹈鹕骑士 · 海岸生存](https://scarfqian.github.io/pelican-knight/)。首次部署状态见开发日志。
+- 在线游戏：[鹈鹕骑士 · 海岸生存](https://scarfqian.github.io/pelican-knight/)，首次部署已完成。
 - `main` 保存已获用户同意发布的内容，GitHub Pages 从 `main` 根目录发布；`.nojekyll` 使 HTML 按静态文件提供。
 - 后续每项维护先在本目录创建独立分支，例如 `feat/new-weapon` 或 `fix/pause-controls`；完成版本、快照与日志后，按用户指令提交并推送分支，创建 Pull Request（PR）。
 - PR 说明实际改动、行为变化和已完成的核对。用户明确决定合并后，才能合并到 `main` 并更新在线版；不自动合并、不直接向 `main` 推送维护改动。
+- `main` 的保护规则要求通过 PR 修改，管理员同样受约束；禁止强推和删除。不设置其他账号必须批准的门槛，合并决定由用户给出。
 - 本次首次上传是建立 `main` 的初始发布。后续合并使用 PR；不要求额外账号审批，也不自动开展游戏测试。
 
 GitHub 用于代码、差异审阅和发布；开发入口仍是本目录的 `index.html`。玩家纪录仍按浏览器来源保存在本地，`file://` 与在线站点的纪录不会自动互通。
@@ -65,8 +66,8 @@ python3 -m http.server 8000 --bind 127.0.0.1
 ├── version.json                       # 当前版本、快照、最近修改编号
 ├── README.md                          # 项目入口与使用说明
 ├── AGENTS.md                          # 本项目的开发与记录约定
-├── .gitignore                        # 忽略 macOS 目录元数据
-├── .nojekyll                         # GitHub Pages 直接发布静态文件
+├── .gitignore                         # 忽略 macOS 目录元数据
+├── .nojekyll                          # GitHub Pages 直接发布静态文件
 ├── CHANGELOG.md                       # 按版本说明变化
 ├── docs/
 │   ├── DEVELOPMENT.md                 # 修改原因、实现位置、核对情况
@@ -94,6 +95,6 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 ## 当前核对范围
 
-本次核对了文件迁移、原内容保持、游戏快照一致、版本登记及文档相对链接。依照本对话的要求，没有运行自动化测试、浏览器试玩、移动端实测或性能测试；功能列表来自当前实现，不代表这些体验已被验证。
+初始迁移核对了原内容保持、游戏快照、版本登记及文档相对链接。0.1.1 首次发布核对了 Pages 部署成功、在线 HTTP 200，以及线上 HTML 与当前入口一致。没有运行自动化测试、浏览器试玩、移动端实测或性能测试；功能列表来自当前实现，发布成功不代表这些体验已被验证。
 
 最佳击退数、最长时间和胜利次数保存在浏览器的 `localStorage`，键为 `pelican-coast-best-v1`。这些浏览器存档不在项目目录内，本次没有读取或迁移浏览器存档。
